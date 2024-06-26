@@ -59,7 +59,7 @@
             // tBoxEmail
             // 
             tBoxEmail.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            tBoxEmail.Location = new Point(254, 140);
+            tBoxEmail.Location = new Point(254, 63);
             tBoxEmail.Name = "tBoxEmail";
             tBoxEmail.Size = new Size(317, 36);
             tBoxEmail.TabIndex = 2;
@@ -67,7 +67,7 @@
             // tBoxPassword
             // 
             tBoxPassword.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            tBoxPassword.Location = new Point(254, 63);
+            tBoxPassword.Location = new Point(254, 140);
             tBoxPassword.Name = "tBoxPassword";
             tBoxPassword.Size = new Size(317, 36);
             tBoxPassword.TabIndex = 3;
@@ -91,6 +91,7 @@
             cBoxShowPass.TabIndex = 5;
             cBoxShowPass.Text = "Show Password";
             cBoxShowPass.UseVisualStyleBackColor = true;
+            cBoxShowPass.CheckedChanged += cBoxShowPass_CheckedChanged;
             // 
             // LoginPage
             // 
@@ -106,6 +107,7 @@
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "LoginPage";
             Text = "Login Page";
+            Load += LoginPage_Load;
             ResumeLayout(false);
             PerformLayout();
         }
