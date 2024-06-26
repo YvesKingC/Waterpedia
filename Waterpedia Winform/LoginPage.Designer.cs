@@ -45,7 +45,6 @@
             lblEmail.Size = new Size(176, 30);
             lblEmail.TabIndex = 0;
             lblEmail.Text = "Username/Emaill";
-            lblEmail.Click += lblEmail_Click;
             // 
             // lblPassword
             // 

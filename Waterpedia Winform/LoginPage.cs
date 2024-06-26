@@ -1,3 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+
 namespace Waterpedia_Winform
 {
     public partial class LoginPage : Form
@@ -5,11 +16,6 @@ namespace Waterpedia_Winform
         public LoginPage()
         {
             InitializeComponent();
-        }
-
-        private void lblEmail_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
