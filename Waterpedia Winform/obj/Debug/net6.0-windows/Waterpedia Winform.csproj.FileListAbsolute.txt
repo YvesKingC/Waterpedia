@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia_Winform.LoginPage.resources
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-windows\Waterpedia Winform.exe
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-windows\Waterpedia Winform.deps.json
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-windows\Waterpedia Winform.runtimeconfig.json
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-windows\Waterpedia Winform.dll
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-windows\Waterpedia Winform.pdb
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.dll
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\refint\Waterpedia Winform.dll
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.pdb
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\ref\Waterpedia Winform.dll
