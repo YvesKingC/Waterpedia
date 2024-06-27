@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.Logging;
 using MySql.Data.MySqlClient;
 
 namespace Waterpedia_Winform
@@ -33,6 +34,28 @@ namespace Waterpedia_Winform
             {
                 tBoxPassword.UseSystemPasswordChar = true;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /*sqlConnect.Open();
+            sqlQuery = "SELECT * FROM USER WHERE ID = '" + tBoxEmail.Text + "' and PASSWORD = '" + tBoxPassword.Text + "';";
+            sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
+            sqlAdapter = new MySqlDataAdapter(sqlCommand);
+            sqlAdapter.Fill(Login);*/
+
+            /*if (Login.Rows.Count > 0)
+            {
+                namaPegawai = Login.Rows[0][2].ToString();
+                statusPegawai = Login.Rows[0][7].ToString();*/
+                Form FormPilihDivisi = new FormPilihDivisi();
+                FormPilihDivisi.Show();
+            this.Visible = false;
+            /*}
+            else
+            {
+                MessageBox.Show("User / Password Salah");
+            }*/
         }
     }
 }
