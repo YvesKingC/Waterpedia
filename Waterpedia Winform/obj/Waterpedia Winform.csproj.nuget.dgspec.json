@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\Waterpedia\\Waterpedia Winform\\Waterpedia Winform.csproj": {}
+    "C:\\Users\\ASUS\\source\\repos\\Waterpedia2\\Waterpedia Winform\\Waterpedia Winform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\Waterpedia\\Waterpedia Winform\\Waterpedia Winform.csproj": {
+    "C:\\Users\\ASUS\\source\\repos\\Waterpedia2\\Waterpedia Winform\\Waterpedia Winform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Waterpedia\\Waterpedia Winform\\Waterpedia Winform.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\Waterpedia2\\Waterpedia Winform\\Waterpedia Winform.csproj",
         "projectName": "Waterpedia Winform",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\Waterpedia\\Waterpedia Winform\\Waterpedia Winform.csproj",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\Waterpedia2\\Waterpedia Winform\\Waterpedia Winform.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\Waterpedia\\Waterpedia Winform\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Source\\Repos\\Waterpedia2\\Waterpedia Winform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Visual studio 3\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,11 +39,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

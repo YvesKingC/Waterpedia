@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,14 +11,14 @@ using MySql.Data.MySqlClient;
 
 namespace Waterpedia_Winform
 {
-    public partial class LoginPage : Form
+    public partial class invoiceBakteri : Form
     {
-        public LoginPage()
+        public invoiceBakteri()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonsearchInvoiceBakteri_Click(object sender, EventArgs e)
         {
 
         }
