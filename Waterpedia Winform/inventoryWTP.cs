@@ -11,24 +11,14 @@ using MySql.Data.MySqlClient;
 
 namespace Waterpedia_Winform
 {
-    public partial class inventoryBakteri : Form
+    public partial class inventoryWTP : Form
     {
-        public inventoryBakteri()
+        public inventoryWTP()
         {
             InitializeComponent();
         }
 
-        private void inventoryBakteri_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonSearch_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonApplyFilter_Click(object sender, EventArgs e)
+        private void buttonSearchWTP_Click(object sender, EventArgs e)
         {
 
         }

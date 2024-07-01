@@ -4,6 +4,9 @@
     <Compile Update="inventoryBakteri.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="inventoryWTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>

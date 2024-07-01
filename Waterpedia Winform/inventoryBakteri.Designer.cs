@@ -87,7 +87,7 @@
             buttonSearch.TabIndex = 4;
             buttonSearch.Text = "Search";
             buttonSearch.UseVisualStyleBackColor = false;
-            buttonSearch.Click += buttonSearch_Click;
+            buttonSearch.Click += this.buttonSearch_Click;
             // 
             // buttonEditItem
             // 
@@ -106,6 +106,7 @@
             buttonApplyFilter.TabIndex = 6;
             buttonApplyFilter.Text = "Apply";
             buttonApplyFilter.UseVisualStyleBackColor = true;
+            buttonApplyFilter.Click += this.buttonApplyFilter_Click;
             // 
             // buttonInvoice
             // 
@@ -132,7 +133,7 @@
             Controls.Add(textBox1);
             Name = "inventoryBakteri";
             Text = "Divisi Bakteri";
-            Load += inventoryBakteri_Load;
+            Load += this.inventoryBakteri_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
