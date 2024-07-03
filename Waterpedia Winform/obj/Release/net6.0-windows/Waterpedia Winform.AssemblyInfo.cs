@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Waterpedia Winform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dd7b9507edaa863549396f5345b6efd92ca81e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d7a9c4b4ac969ebb05054c26cf42a8afafda650")]
 [assembly: System.Reflection.AssemblyProductAttribute("Waterpedia Winform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Waterpedia Winform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

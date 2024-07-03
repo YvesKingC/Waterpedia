@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\Waterpedia Winform",
+    "\\Waterpedia Winform\\Properties"
+  ],
+  "SelectedNode": "\\Waterpedia Winform\\inventoryWTP.cs",
   "PreviewInSolutionExplorer": false
 }
