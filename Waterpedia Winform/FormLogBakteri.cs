@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Waterpedia_Winform
 {
-    public partial class FormPilihDivisi : Form
+    public partial class FormLogBakteri : Form
     {
-        public FormPilihDivisi()
+        public FormLogBakteri()
         {
             InitializeComponent();
-        }
-
-        private void btnLogout_Click(object sender, EventArgs e)
-        {
-            Form formLogin = new FormLogin();
-            formLogin.Show();
-            this.Hide();
         }
     }
 }

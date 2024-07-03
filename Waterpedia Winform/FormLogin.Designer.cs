@@ -1,6 +1,6 @@
 ﻿namespace Waterpedia_Winform
 {
-    partial class LoginPage
+    partial class FormLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -32,12 +32,13 @@
             lblPassword = new Label();
             tBoxEmail = new TextBox();
             tBoxPassword = new TextBox();
-            button1 = new Button();
+            btnLogin = new Button();
             cBoxShowPass = new CheckBox();
             SuspendLayout();
             // 
             // lblEmail
             // 
+            lblEmail.Anchor = AnchorStyles.Top;
             lblEmail.AutoSize = true;
             lblEmail.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             lblEmail.Location = new Point(57, 66);
@@ -48,6 +49,7 @@
             // 
             // lblPassword
             // 
+            lblPassword.Anchor = AnchorStyles.Top;
             lblPassword.AutoSize = true;
             lblPassword.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             lblPassword.Location = new Point(57, 143);
@@ -58,6 +60,7 @@
             // 
             // tBoxEmail
             // 
+            tBoxEmail.Anchor = AnchorStyles.Top;
             tBoxEmail.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             tBoxEmail.Location = new Point(254, 63);
             tBoxEmail.Name = "tBoxEmail";
@@ -66,25 +69,28 @@
             // 
             // tBoxPassword
             // 
+            tBoxPassword.Anchor = AnchorStyles.Top;
             tBoxPassword.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             tBoxPassword.Location = new Point(254, 140);
             tBoxPassword.Name = "tBoxPassword";
             tBoxPassword.Size = new Size(317, 36);
             tBoxPassword.TabIndex = 3;
             // 
-            // button1
+            // btnLogin
             // 
-            button1.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(254, 229);
-            button1.Name = "button1";
-            button1.Size = new Size(142, 46);
-            button1.TabIndex = 4;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnLogin.Anchor = AnchorStyles.Top;
+            btnLogin.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLogin.Location = new Point(254, 229);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(142, 46);
+            btnLogin.TabIndex = 4;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // cBoxShowPass
             // 
+            cBoxShowPass.Anchor = AnchorStyles.Top;
             cBoxShowPass.AutoSize = true;
             cBoxShowPass.Location = new Point(254, 183);
             cBoxShowPass.Name = "cBoxShowPass";
@@ -94,19 +100,19 @@
             cBoxShowPass.UseVisualStyleBackColor = true;
             cBoxShowPass.CheckedChanged += cBoxShowPass_CheckedChanged;
             // 
-            // LoginPage
+            // FormLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(644, 328);
             Controls.Add(cBoxShowPass);
-            Controls.Add(button1);
+            Controls.Add(btnLogin);
             Controls.Add(tBoxPassword);
             Controls.Add(tBoxEmail);
             Controls.Add(lblPassword);
             Controls.Add(lblEmail);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            Name = "LoginPage";
+            Name = "FormLogin";
             Text = "Login Page";
             Load += LoginPage_Load;
             ResumeLayout(false);
@@ -119,7 +125,7 @@
         private Label lblPassword;
         private TextBox tBoxEmail;
         private TextBox tBoxPassword;
-        private Button button1;
+        private Button btnLogin;
         private CheckBox cBoxShowPass;
     }
 }

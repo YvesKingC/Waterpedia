@@ -31,7 +31,7 @@
             BtnBakteri = new Button();
             btnTraining = new Button();
             btnWTP = new Button();
-            button1 = new Button();
+            btnLogout = new Button();
             SuspendLayout();
             // 
             // BtnBakteri
@@ -64,22 +64,24 @@
             btnWTP.Text = "Divisi WTP";
             btnWTP.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnLogout
             // 
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(48, 185);
-            button1.Name = "button1";
-            button1.Size = new Size(71, 30);
-            button1.TabIndex = 3;
-            button1.Text = "LogOut";
-            button1.UseVisualStyleBackColor = true;
+            btnLogout.Anchor = AnchorStyles.None;
+            btnLogout.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLogout.Location = new Point(48, 185);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(71, 30);
+            btnLogout.TabIndex = 3;
+            btnLogout.Text = "LogOut";
+            btnLogout.UseVisualStyleBackColor = true;
+            btnLogout.Click += btnLogout_Click;
             // 
             // FormPilihDivisi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(586, 249);
-            Controls.Add(button1);
+            Controls.Add(btnLogout);
             Controls.Add(btnWTP);
             Controls.Add(btnTraining);
             Controls.Add(BtnBakteri);
@@ -93,6 +95,6 @@
         private Button BtnBakteri;
         private Button btnTraining;
         private Button btnWTP;
-        private Button button1;
+        private Button btnLogout;
     }
 }
