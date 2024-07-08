@@ -35,6 +35,9 @@
             buttonEditWTP = new Button();
             buttonInvoice = new Button();
             comboBox1 = new ComboBox();
+            buttonNewBakteri = new Button();
+            buttonNewpackaging = new Button();
+            buttonNewfilter = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -67,7 +70,7 @@
             // 
             // buttonApplyWTP
             // 
-            buttonApplyWTP.Location = new Point(715, 204);
+            buttonApplyWTP.Location = new Point(715, 165);
             buttonApplyWTP.Name = "buttonApplyWTP";
             buttonApplyWTP.Size = new Size(94, 29);
             buttonApplyWTP.TabIndex = 3;
@@ -76,18 +79,19 @@
             // 
             // buttonEditWTP
             // 
-            buttonEditWTP.Location = new Point(686, 297);
+            buttonEditWTP.Location = new Point(686, 200);
             buttonEditWTP.Name = "buttonEditWTP";
             buttonEditWTP.Size = new Size(151, 32);
             buttonEditWTP.TabIndex = 4;
             buttonEditWTP.Text = "Edit Item";
             buttonEditWTP.UseVisualStyleBackColor = true;
+            buttonEditWTP.Click += buttonEditWTP_Click;
             // 
             // buttonInvoice
             // 
             buttonInvoice.BackColor = Color.FromArgb(128, 255, 128);
             buttonInvoice.ForeColor = SystemColors.ControlText;
-            buttonInvoice.Location = new Point(686, 335);
+            buttonInvoice.Location = new Point(686, 343);
             buttonInvoice.Name = "buttonInvoice";
             buttonInvoice.Size = new Size(151, 32);
             buttonInvoice.TabIndex = 5;
@@ -97,16 +101,46 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(686, 170);
+            comboBox1.Location = new Point(686, 131);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(151, 28);
             comboBox1.TabIndex = 6;
+            // 
+            // buttonNewBakteri
+            // 
+            buttonNewBakteri.Location = new Point(686, 238);
+            buttonNewBakteri.Name = "buttonNewBakteri";
+            buttonNewBakteri.Size = new Size(151, 29);
+            buttonNewBakteri.TabIndex = 7;
+            buttonNewBakteri.Text = "Bakteri Baru";
+            buttonNewBakteri.UseVisualStyleBackColor = true;
+            // 
+            // buttonNewpackaging
+            // 
+            buttonNewpackaging.Location = new Point(686, 273);
+            buttonNewpackaging.Name = "buttonNewpackaging";
+            buttonNewpackaging.Size = new Size(151, 29);
+            buttonNewpackaging.TabIndex = 8;
+            buttonNewpackaging.Text = "Packaging Baru";
+            buttonNewpackaging.UseVisualStyleBackColor = true;
+            // 
+            // buttonNewfilter
+            // 
+            buttonNewfilter.Location = new Point(686, 308);
+            buttonNewfilter.Name = "buttonNewfilter";
+            buttonNewfilter.Size = new Size(151, 29);
+            buttonNewfilter.TabIndex = 9;
+            buttonNewfilter.Text = "Filter Baru";
+            buttonNewfilter.UseVisualStyleBackColor = true;
             // 
             // inventoryWTP
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(849, 450);
+            Controls.Add(buttonNewfilter);
+            Controls.Add(buttonNewpackaging);
+            Controls.Add(buttonNewBakteri);
             Controls.Add(comboBox1);
             Controls.Add(buttonInvoice);
             Controls.Add(buttonEditWTP);
@@ -130,5 +164,8 @@
         private Button buttonEditWTP;
         private Button buttonInvoice;
         private ComboBox comboBox1;
+        private Button buttonNewBakteri;
+        private Button buttonNewpackaging;
+        private Button buttonNewfilter;
     }
 }
