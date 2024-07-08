@@ -33,3 +33,10 @@ C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-window
 C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia Winform.csproj.CopyComplete
+<<<<<<< HEAD
+=======
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia_Winform.FormLogin.resources
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia_Winform.FormLogBakteri.resources
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\bin\Debug\net6.0-windows\Waterpedia Winform.dll.config
+C:\Users\ASUS\source\repos\Waterpedia\Waterpedia Winform\obj\Debug\net6.0-windows\Waterpedia_Winform.FormFrontPanel.resources
+>>>>>>> 8344b60 (login sudah fix)
