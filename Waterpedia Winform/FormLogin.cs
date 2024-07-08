@@ -35,6 +35,12 @@ namespace Waterpedia_Winform
         private void LoginPage_Load(object sender, EventArgs e)
         {
             tBoxPassword.UseSystemPasswordChar = true;
+            /*remember usename if exist*/
+            if (!string.IsNullOrEmpty(Properties.Settings.Default.RememberedUsername))
+            {
+                tBoxEmail.Text = Properties.Settings.Default.RememberedUsername;
+                cBoxRememberUser.Checked = true;
+            }
         }
 
         private void cBoxShowPass_CheckedChanged(object sender, EventArgs e)
@@ -61,7 +67,17 @@ namespace Waterpedia_Winform
             {
                 Nama = Login.Rows[0]["Nama"].ToString();
                 Izin_Akses = Login.Rows[0]["Izin_Akses"].ToString();
-                Form formPilihDivisi = new FormPilihDivisi();
+                if (cBoxRememberUser.Checked)
+                {
+                    Properties.Settings.Default.RememberedUsername = tBoxEmail.Text;
+                    Properties.Settings.Default.Save();
+                }
+                else
+                {
+                    Properties.Settings.Default.RememberedUsername = string.Empty;
+                    Properties.Settings.Default.Save();
+                }
+                Form formPilihDivisi = new FormFrontPanel();
                 formPilihDivisi.Show();
                 this.Hide();
             }

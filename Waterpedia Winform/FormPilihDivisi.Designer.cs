@@ -1,6 +1,6 @@
 ﻿namespace Waterpedia_Winform
 {
-    partial class FormPilihDivisi
+    partial class FormFrontPanel
     {
         /// <summary>
         /// Required designer variable.
@@ -29,72 +29,91 @@
         private void InitializeComponent()
         {
             BtnBakteri = new Button();
-            btnTraining = new Button();
             btnWTP = new Button();
             btnLogout = new Button();
+            btnViewUser = new Button();
+            lblWellcome = new Label();
             SuspendLayout();
             // 
             // BtnBakteri
             // 
+            BtnBakteri.AutoSize = true;
             BtnBakteri.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            BtnBakteri.Location = new Point(48, 41);
+            BtnBakteri.Location = new Point(44, 120);
             BtnBakteri.Name = "BtnBakteri";
-            BtnBakteri.Size = new Size(139, 120);
+            BtnBakteri.Size = new Size(180, 124);
             BtnBakteri.TabIndex = 0;
             BtnBakteri.Text = "Divisi Bakteri";
             BtnBakteri.UseVisualStyleBackColor = true;
             // 
-            // btnTraining
-            // 
-            btnTraining.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            btnTraining.Location = new Point(223, 41);
-            btnTraining.Name = "btnTraining";
-            btnTraining.Size = new Size(139, 120);
-            btnTraining.TabIndex = 1;
-            btnTraining.Text = "Divisi Training";
-            btnTraining.UseVisualStyleBackColor = true;
-            // 
             // btnWTP
             // 
+            btnWTP.AutoSize = true;
             btnWTP.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            btnWTP.Location = new Point(401, 41);
+            btnWTP.Location = new Point(262, 120);
             btnWTP.Name = "btnWTP";
-            btnWTP.Size = new Size(139, 120);
+            btnWTP.Size = new Size(180, 124);
             btnWTP.TabIndex = 2;
             btnWTP.Text = "Divisi WTP";
             btnWTP.UseVisualStyleBackColor = true;
+            btnWTP.Click += btnWTP_Click;
             // 
             // btnLogout
             // 
-            btnLogout.Anchor = AnchorStyles.None;
+            btnLogout.AutoSize = true;
             btnLogout.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnLogout.Location = new Point(48, 185);
+            btnLogout.Location = new Point(44, 273);
             btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(71, 30);
+            btnLogout.Size = new Size(72, 31);
             btnLogout.TabIndex = 3;
             btnLogout.Text = "LogOut";
             btnLogout.UseVisualStyleBackColor = true;
             btnLogout.Click += btnLogout_Click;
             // 
-            // FormPilihDivisi
+            // btnViewUser
+            // 
+            btnViewUser.AutoSize = true;
+            btnViewUser.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnViewUser.Location = new Point(262, 256);
+            btnViewUser.Name = "btnViewUser";
+            btnViewUser.Size = new Size(180, 48);
+            btnViewUser.TabIndex = 4;
+            btnViewUser.Text = "View User";
+            btnViewUser.UseVisualStyleBackColor = true;
+            // 
+            // lblWellcome
+            // 
+            lblWellcome.AutoSize = true;
+            lblWellcome.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblWellcome.Location = new Point(44, 30);
+            lblWellcome.Name = "lblWellcome";
+            lblWellcome.Size = new Size(134, 37);
+            lblWellcome.TabIndex = 5;
+            lblWellcome.Text = "Wellcome";
+            // 
+            // FormFrontPanel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(586, 249);
+            ClientSize = new Size(494, 345);
+            Controls.Add(lblWellcome);
+            Controls.Add(btnViewUser);
             Controls.Add(btnLogout);
             Controls.Add(btnWTP);
-            Controls.Add(btnTraining);
             Controls.Add(BtnBakteri);
-            Name = "FormPilihDivisi";
-            Text = "FormPilihDivisi";
+            Name = "FormFrontPanel";
+            Text = "Form Front Panel";
+            Load += FormFrontPanel_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button BtnBakteri;
-        private Button btnTraining;
         private Button btnWTP;
         private Button btnLogout;
+        private Button btnViewUser;
+        private Label lblWellcome;
     }
 }

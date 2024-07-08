@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Waterpedia_Winform
 {
-    public partial class FormPilihDivisi : Form
+    public partial class FormFrontPanel : Form
     {
-        public FormPilihDivisi()
+        public FormFrontPanel()
         {
             InitializeComponent();
         }
@@ -22,6 +22,25 @@ namespace Waterpedia_Winform
             Form formLogin = new FormLogin();
             formLogin.Show();
             this.Hide();
+        }
+
+        private void btnWTP_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormFrontPanel_Load(object sender, EventArgs e)
+        {
+            /*when form load will show user name*/
+            lblWellcome.Text = "Wellcome " + FormLogin.Nama;
+            if (FormLogin.Izin_Akses == "Admin")
+            {
+                btnViewUser.Enabled = true;
+            }
+            else
+            {
+                btnViewUser.Enabled = false;
+            }
         }
     }
 }
