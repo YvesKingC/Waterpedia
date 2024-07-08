@@ -55,6 +55,11 @@ namespace Waterpedia_Winform
             }
         }
 
+        private void InitializeComponent()
+        {
+
+        }
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             sqlConnect.Open();
