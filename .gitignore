@@ -2,6 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/Waterpedia Winform/FileContentIndex/b0deeeb7-2039-49ff-bfba-b1259805738b.vsidx
-/.vs/Waterpedia Winform/FileContentIndex/c9de01ea-81d4-4f09-afdd-427e4331beb3.vsidx
-/.vs/Waterpedia Winform/FileContentIndex/e10da427-aa1b-48dd-81b9-42b83f055e7f.vsidx
+.vs/
