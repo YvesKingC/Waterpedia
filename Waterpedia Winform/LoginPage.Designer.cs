@@ -46,7 +46,7 @@
             lblEmail.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             lblEmail.Location = new Point(61, 137);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(176, 30);
+            lblEmail.Size = new Size(219, 37);
             lblEmail.TabIndex = 0;
             lblEmail.Text = "Username/Emaill";
             // 
@@ -56,7 +56,7 @@
             lblPassword.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             lblPassword.Location = new Point(61, 214);
             lblPassword.Name = "lblPassword";
-            lblPassword.Size = new Size(103, 30);
+            lblPassword.Size = new Size(128, 37);
             lblPassword.TabIndex = 1;
             lblPassword.Text = "Password";
             // 
@@ -65,7 +65,7 @@
             tBoxEmail.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             tBoxEmail.Location = new Point(258, 134);
             tBoxEmail.Name = "tBoxEmail";
-            tBoxEmail.Size = new Size(317, 36);
+            tBoxEmail.Size = new Size(317, 43);
             tBoxEmail.TabIndex = 2;
             // 
             // tBoxPassword
@@ -73,7 +73,7 @@
             tBoxPassword.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             tBoxPassword.Location = new Point(258, 211);
             tBoxPassword.Name = "tBoxPassword";
-            tBoxPassword.Size = new Size(317, 36);
+            tBoxPassword.Size = new Size(317, 43);
             tBoxPassword.TabIndex = 3;
             // 
             // button1
@@ -103,7 +103,7 @@
             cBoxShowPass.AutoSize = true;
             cBoxShowPass.Location = new Point(258, 254);
             cBoxShowPass.Name = "cBoxShowPass";
-            cBoxShowPass.Size = new Size(108, 19);
+            cBoxShowPass.Size = new Size(132, 24);
             cBoxShowPass.TabIndex = 5;
             cBoxShowPass.Text = "Show Password";
             cBoxShowPass.UseVisualStyleBackColor = true;
@@ -123,23 +123,6 @@
             label1.Text = "WATERPEDIA";
             // 
             // notifyIcon1
-            // 
-            notifyIcon1.Text = "notifyIcon1";
-            notifyIcon1.Visible = true;
-            // 
-            // cBoxRememberUser
-            // 
-            cBoxRememberUser.Anchor = AnchorStyles.Top;
-            cBoxRememberUser.AutoSize = true;
-            cBoxRememberUser.Location = new Point(258, 176);
-            cBoxRememberUser.Name = "cBoxRememberUser";
-            cBoxRememberUser.Size = new Size(140, 19);
-            cBoxRememberUser.TabIndex = 7;
-            cBoxRememberUser.Text = "Remember Username";
-            cBoxRememberUser.UseVisualStyleBackColor = true;
-            // 
-            // FormLogin
->>>>>>> 8344b60 (login sudah fix):Waterpedia Winform/FormLogin.Designer.cs
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
