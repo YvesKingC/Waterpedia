@@ -18,9 +18,21 @@ namespace Waterpedia_Winform
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void LoginPage_Load(object sender, EventArgs e)
         {
+            tBoxPassword.UseSystemPasswordChar = true;
+        }
 
+        private void cBoxShowPass_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cBoxShowPass.Checked)
+            {
+                tBoxPassword.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                tBoxPassword.UseSystemPasswordChar = true;
+            }
         }
     }
 }

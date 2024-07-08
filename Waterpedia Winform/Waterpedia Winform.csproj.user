@@ -1,25 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form Invoice WTP.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FormTambahBakteri.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FormNewInv.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="inventoryBakteri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="inventoryWTP.cs">
+    <Compile Update="FormPilihDivisi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="invoiceBakteri.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="LoginPage.cs">
+    <Compile Update="FormLogin.cs">
+>>>>>>> 8344b60 (login sudah fix)
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
