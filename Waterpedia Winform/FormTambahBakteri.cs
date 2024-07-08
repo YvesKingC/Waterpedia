@@ -7,25 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace Waterpedia_Winform
 {
-    public partial class inventoryWTP : Form
+    public partial class FormAddBakteri : Form
     {
-        public inventoryWTP()
+        public FormAddBakteri()
         {
             InitializeComponent();
-        }
-
-        private void buttonSearchWTP_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonEditWTP_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
